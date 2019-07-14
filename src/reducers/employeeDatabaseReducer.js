@@ -18,7 +18,6 @@ const initialState = {
 const EmployeeDatabaseReducer = (state = initialState, action) => {
   switch(action.type) {
     case ADD_EMPLOYEE:
-      console.log("ADD_EMPLOYEE", action.payload);
       return {
         ...state,
         employeeList: [ ...state.employeeList, { ...action.payload, key: state.employeeList.length + 1 } ]

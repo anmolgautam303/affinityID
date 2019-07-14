@@ -1,3 +1,5 @@
+@import "../../variables.scss";
+
 .card-form {
   padding: 30px;
   background-color: white;
@@ -11,14 +13,14 @@
 }
 
 .card-form-button {
-  background-color: #469C46;
+  background-color: $green-one;
 }
 
 .card-form-icon-container {
   position: absolute;
   top: -15px;
   right: -15px;
-  background-color: #161616;
+  background-color: $black-one;
   height: 30px;
   width: 30px;
   border-radius: 50%;

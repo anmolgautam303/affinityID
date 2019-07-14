@@ -1,4 +1,4 @@
-import ls from 'local-storage';
+
 import {
     FETCH_RANDOM_FACT,
     FETCH_ALL_CATEGORY,

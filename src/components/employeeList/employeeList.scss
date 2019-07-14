@@ -1,3 +1,5 @@
+@import "../../variables.scss";
+
 .employees-container {
   text-align: center;
 
@@ -40,7 +42,7 @@
 .user-role-heading {
   font-size: 14px;
   line-height: 16px;
-  color: #827E99;
+  color: $gray-three;
   margin: 20px;
 }
 
@@ -56,5 +58,5 @@
 
 .sort-by-text {
   cursor: pointer;
-  color: #4A4A4A;
+  color: $gray-one;
 }

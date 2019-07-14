@@ -1,9 +1,9 @@
+// @flow
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Form from 'react-bootstrap/Form';
 import moment from 'moment';
-
-import './cardForm.css';
+import './cardForm.scss';
 
 class CardForm extends React.Component {
   state = {
@@ -14,7 +14,7 @@ class CardForm extends React.Component {
     team: '',
     address: '',
     city: ''
-  };;
+  };
 
   componentDidMount() {
     const { selectedEmployeeData } = this.props;
@@ -33,7 +33,6 @@ class CardForm extends React.Component {
   }
 
   handleSubmit = (event) => {
-    console.log('form submitted');
     event.preventDefault();
     const {
       image,

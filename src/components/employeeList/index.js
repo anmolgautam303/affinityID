@@ -8,8 +8,7 @@ import moment from "moment";
 import UserCardList from '../../common/userCardList';
 import SelectedEmployeeCard from '../selectedEmployeeCard';
 import CardForm from '../cardForm';
-
-import './employeeList.css';
+import './employeeList.scss';
 
 class Employees extends React.Component {
   state = {
@@ -60,19 +59,16 @@ class Employees extends React.Component {
   filterAndSort = (role, searchName = null) => {
     switch (this.state.sortBy) {
       case 'alphabetically':
-        console.log('alphabetically');
         return this.filterEmployeeList(role, searchName).sort( function( a, b ) {
           return a.firstName < b.firstName ? -1 : a.firstName > b.firstName ? 1 : 0;
         });
       case 'newest':
-        console.log('newest');
         return this.filterEmployeeList(role, searchName)
             .sort((a,b) =>
                 new moment(a.dateAdded, 'DD-MM-YYYY HH:mm:ss')
                 - new moment(b.dateAdded, 'DD-MM-YYYY HH:mm:ss'))
             .reverse();
       default:
-        console.log('default');
         return this.filterEmployeeList(role, searchName);
     }
   };
@@ -91,7 +87,6 @@ class Employees extends React.Component {
 
   render () {
     const { searchKeyword, sortBy } = this.state;
-    console.log("this.props.employeeList", this.props.employeeList);
 
     return (
       <div className="employees-container">

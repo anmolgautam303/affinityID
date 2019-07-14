@@ -1,3 +1,5 @@
+@import "../../variables.scss";
+
 .selected-user-card {
   margin-top: 113px;
   padding: 0 20px 10px 20px;
@@ -19,13 +21,13 @@
 }
 
 .selected-user-card-text-name {
-  color: #4A4A4A;
+  color: $gray-one;
   font-weight: bold;
   font-size: 24px;
 }
 
 .selected-user-card-text-email {
-  color: #9B9B9B;
+  color: $gray-two;
   font-size: 12px;
   line-height: 14px;
 }
@@ -35,12 +37,12 @@
 }
 
 .selected-user-card-share-button {
-  background-color: #9B9B9B;
+  background-color: $gray-two;
 }
 
 .selected-user-card-additional-text {
   margin: 0;
-  color: #827E99;
+  color: $gray-three;
 }
 
 .selected-user-card-edit-buttons {
@@ -70,7 +72,7 @@
 }
 
 .icon-container {
-  background-color: #F2F7FA;
+  background-color: $white-one;
   height: 30px;
   width: 30px;
   border-radius: 50%;
@@ -91,7 +93,7 @@
 }
 
 .selected-user-card-divider {
-  border-top: 1px solid #F2F7FA;
+  border-top: 1px solid $white-one;
   padding: 10px 0;
 }
 
