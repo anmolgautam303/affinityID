@@ -15,7 +15,7 @@ describe('Header', () => {
         expect(Header).toMatchSnapshot();
     });
 
-    it('`Random facts` links to `/`', () => {
+    it('`Random employeeList` links to `/`', () => {
         expect(header.find(NavLink).first().props().to).toEqual('/');
     });
 

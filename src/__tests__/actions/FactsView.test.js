@@ -5,7 +5,7 @@ import {
     FETCH_FACT_BY_CATEGORY,
     UPDATE_FAVOURITE_JOKES
   } from '../../constants/Facts_constants';
-import * as actions from '../../actions/FactsView';
+import * as actions from '../../actions/employeeList';
 
 it('creates an action to get a random fact', () => {
     const joke = { "id": "25vBR41iRNiXVzm_-IGxag", "value": "this is a test joke" };

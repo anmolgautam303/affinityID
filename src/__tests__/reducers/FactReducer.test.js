@@ -1,4 +1,4 @@
-import FactReducer from '../../reducers/FactReducer';
+import FactReducer from '../../reducers/employeeDatabaseReducer';
 import {
     SET_RANDOM_FACT, 
     SET_ALL_CATEGORY, 

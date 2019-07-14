@@ -1,4 +1,4 @@
-# react-app-chuck-norris-facts (React+Redux+Saga+apisauce)
+# react-app-employee-management (React+Redux+Saga+apisauce)
 
 ## install dependencies
 yarn install

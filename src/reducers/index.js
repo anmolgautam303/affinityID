@@ -1,9 +1,9 @@
-import factReducer from './FactReducer';
+import EmployeeDatabaseReducer from './employeeDatabaseReducer';
 
 import { combineReducers } from 'redux';
 
 const rootReducer = combineReducers({
-	factReducer,
+	EmployeeDatabaseReducer,
 });
 
 export default rootReducer;

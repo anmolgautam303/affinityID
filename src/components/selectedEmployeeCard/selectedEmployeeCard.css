@@ -1,0 +1,104 @@
+.selected-user-card {
+  margin-top: 113px;
+  padding: 0 20px 10px 20px;
+  background-color: white;
+}
+
+.selected-user-card-image {
+  width: 104px;
+  height: 104px;
+  margin: -52px auto 20px auto;
+}
+
+.selected-user-card-row {
+  padding: 0;
+}
+
+.selected-user-card-text {
+  margin: 0;
+}
+
+.selected-user-card-text-name {
+  color: #4A4A4A;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.selected-user-card-text-email {
+  color: #9B9B9B;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.selected-user-card-action-container {
+  height: 50px;
+}
+
+.selected-user-card-share-button {
+  background-color: #9B9B9B;
+}
+
+.selected-user-card-additional-text {
+  margin: 0;
+  color: #827E99;
+}
+
+.selected-user-card-edit-buttons {
+  width: 100%;
+  height: 36px;
+  /*margin: 10px 0;*/
+  background-color: rgba(208, 2, 27, 0.78);
+  opacity: 0.78;
+  color: white;
+  border-radius: 12px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.selected-user-card-confirmation-text {
+  margin: 0;
+  flex: 2;
+}
+
+.selected-user-card-button-text {
+  margin: 0;
+  flex: 1;
+  cursor: pointer;
+}
+
+.icon-container {
+  background-color: #F2F7FA;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.custom-icon-margin {
+  margin-right: 20px;
+}
+
+.selected-user-card-icon-times {
+  color: red;
+}
+
+.selected-user-card-divider {
+  border-top: 1px solid #F2F7FA;
+  padding: 10px 0;
+}
+
+.selected-user-card-additional-text-info {
+  font-size: 12px;
+}
+
+.selected-user-card-additional-text-desc {
+  font-size: 14px;
+}

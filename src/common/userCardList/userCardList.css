@@ -1,0 +1,37 @@
+.employee-list-card {
+  margin-bottom: 40px;
+  padding: 10px 20px;
+}
+
+.employee-list-employee-icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 20px;
+}
+
+.employee-list-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.employee-list-card-card-text {
+  text-align: left;
+  margin: 0;
+}
+
+.employee-list-card-text-name {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.employee-list-card-text-role {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.employee-list-card-text-team {
+  font-size: 12px;
+  line-height: 14px;
+}

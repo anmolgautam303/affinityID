@@ -1,0 +1,60 @@
+.employees-container {
+  text-align: center;
+
+  background-image: url(../../assets/img/background.png);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*background-size: 100% 100px;*/
+  background-size: cover;
+}
+
+.custom-container {
+  max-width: 720px;
+}
+
+@media (max-width: 767px) {
+  .custom-container {
+    max-width: 390px;
+  }
+}
+
+.custom-buttons {
+  margin-top: 20px;
+}
+
+.company-logo {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.search-box {
+  margin-top: 20px;
+}
+
+.user-role-heading {
+  font-size: 14px;
+  line-height: 16px;
+  color: #827E99;
+  margin: 20px;
+}
+
+.admin-text {
+  text-align: left;
+  margin: 0;
+}
+
+.sort-by {
+  text-align: right;
+  margin: 0;
+}
+
+.sort-by-text {
+  cursor: pointer;
+  color: #4A4A4A;
+}
