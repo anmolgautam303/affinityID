@@ -9,7 +9,8 @@ type Props = {
   selectedEmployeeData: Object,
   updateEmployee: Function,
   userCardSelected: Function,
-  addEmployee: Function
+  addEmployee: Function,
+  actionName: string
 };
 
 type State ={
@@ -133,7 +134,7 @@ class CardForm extends React.Component<Props, State> {
       address,
       city
     } = this.state;
-    const { selectedEmployeeData, userCardSelected } = this.props;
+    const { selectedEmployeeData, userCardSelected, actionName } = this.props;
 
     const isButtonDisabled = !this.isButtonDisabled();
 
@@ -237,7 +238,7 @@ class CardForm extends React.Component<Props, State> {
         </Form>
 
         {
-          selectedEmployeeData
+          actionName === 'updateEmployeeData'
           && (
             <div
               className="card__form-icon-container"

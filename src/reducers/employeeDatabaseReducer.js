@@ -38,13 +38,17 @@ const EmployeeDatabaseReducer = (state = initialState, action) => {
         employeeList: newEmployeeList
       };
     }
-    case UPDATE_EMPLOYEE:
+    case UPDATE_EMPLOYEE: {
+      const newEmployeeList = produce(state.employeeList, draft => {
+        draft[action.payload.key - 1] = action.payload;
+      });
+      ls.set("employeeList", JSON.stringify(newEmployeeList));
+
       return {
         ...state,
-        employeeList: produce(state.employeeList, draft => {
-          draft[action.payload.key - 1] = action.payload;
-        })
+        employeeList: newEmployeeList
       };
+    }
     default:
       return state;
   }

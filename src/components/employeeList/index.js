@@ -48,7 +48,7 @@ class Employees extends React.Component<Props, State> {
     }
   }
 
-  userCardSelected = (selectedEmployeeData: Object = null, actionName: string = 'addEmployee') => {
+  userCardSelected = (selectedEmployeeData: Object = {}, actionName: string = 'addEmployee') => {
     this.setState({
       selectedEmployeeData,
       actionName
@@ -73,6 +73,7 @@ class Employees extends React.Component<Props, State> {
       case 'updateEmployeeData':
         return (
           <CardForm
+            actionName={actionName}
             selectedEmployeeData={selectedEmployeeData}
             userCardSelected={this.userCardSelected}
             updateEmployee={updateEmployee}
