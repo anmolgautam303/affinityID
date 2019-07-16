@@ -1,3 +1,4 @@
+// @flow
 import React from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -11,7 +12,22 @@ import SelectedEmployeeCard from '../selectedEmployeeCard';
 import CardForm from '../cardForm';
 import './employeeList.scss';
 
-class Employees extends React.Component {
+type Props = {
+  employeeList: Object,
+  location: Object,
+  deleteEmployee: Function,
+  updateEmployee: Function,
+  addEmployee: Function
+};
+
+type State = {
+  selectedEmployeeData: Object,
+  actionName: string,
+  searchKeyword: string,
+  sortBy: string
+};
+
+class Employees extends React.Component<Props, State> {
   state = {
     selectedEmployeeData: null,
     actionName: 'addEmployee',
@@ -20,6 +36,7 @@ class Employees extends React.Component {
   };
 
   componentDidMount() {
+    console.log("this.props.locatio", typeof this.props.location);
     const { employeeList } = this.props;
     const value = queryString.parse(this.props.location.search);
     const id = value.id;
@@ -31,7 +48,7 @@ class Employees extends React.Component {
     }
   }
 
-  userCardSelected = (selectedEmployeeData = null, actionName = 'addEmployee') => {
+  userCardSelected = (selectedEmployeeData: Object = null, actionName: string = 'addEmployee') => {
     this.setState({
       selectedEmployeeData,
       actionName
@@ -46,9 +63,11 @@ class Employees extends React.Component {
       case 'openSelectedEmployeeCard':
         return (
           <SelectedEmployeeCard
+            {...this.props}
             selectedEmployeeData={selectedEmployeeData}
             userCardSelected={this.userCardSelected}
             deleteEmployee={deleteEmployee}
+            addEmployee={addEmployee}
           />
         );
       case 'updateEmployeeData':
@@ -57,6 +76,7 @@ class Employees extends React.Component {
             selectedEmployeeData={selectedEmployeeData}
             userCardSelected={this.userCardSelected}
             updateEmployee={updateEmployee}
+            addEmployee={addEmployee}
           />
         );
       default:
@@ -64,12 +84,15 @@ class Employees extends React.Component {
           <CardForm
             actionName={actionName}
             addEmployee={addEmployee}
+            selectedEmployeeData={selectedEmployeeData}
+            userCardSelected={this.userCardSelected}
+            updateEmployee={updateEmployee}
           />
         );
     }
   };
 
-  filterAndSort = (role, searchName = null) => {
+  filterAndSort = (role: string, searchName: string = '') => {
     switch (this.state.sortBy) {
       case 'alphabetically':
         return this.filterEmployeeList(role, searchName).sort( function( a, b ) {
@@ -86,7 +109,7 @@ class Employees extends React.Component {
     }
   };
 
-  filterEmployeeList = (role, searchName) => {
+  filterEmployeeList = (role: string, searchName: string) => {
     if (searchName) {
       return this.props.employeeList.filter(employee => {
         return employee.role === role

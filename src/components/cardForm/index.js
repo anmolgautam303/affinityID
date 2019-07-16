@@ -5,7 +5,24 @@ import Form from 'react-bootstrap/Form';
 import moment from 'moment';
 import './cardForm.scss';
 
-class CardForm extends React.Component {
+type Props = {
+  selectedEmployeeData: Object,
+  updateEmployee: Function,
+  userCardSelected: Function,
+  addEmployee: Function
+};
+
+type State ={
+  image: string,
+  name: string,
+  email: string,
+  role: string,
+  team: string,
+  address: string,
+  city: string
+}
+
+class CardForm extends React.Component<Props, State> {
   state = {
     image: '',
     name: '',
@@ -32,7 +49,7 @@ class CardForm extends React.Component {
     }
   }
 
-  handleSubmit = (event) => {
+  handleSubmit = (event: Event) => {
     event.preventDefault();
     const {
       image,

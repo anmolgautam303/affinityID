@@ -1,3 +1,4 @@
+// @flow
 import React from "react";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -5,12 +6,22 @@ import Card from 'react-bootstrap/Card';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import './selectedEmployeeCard.scss';
 
-class SelectedEmployeeCard extends React.Component {
+type Props = {
+  deleteEmployee: Function,
+  userCardSelected: Function,
+  selectedEmployeeData: Object
+};
+
+type State = {
+  editOrRemoveClicked: string
+};
+
+class SelectedEmployeeCard extends React.Component<Props, State> {
   state = {
-    editOrRemoveClicked: null
+    editOrRemoveClicked: ''
   };
 
-  iconClicked = (val = null) => {
+  iconClicked = (val: string = '') => {
     this.setState({
       editOrRemoveClicked: val
     })

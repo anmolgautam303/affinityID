@@ -1,42 +1,32 @@
 
 import {
-    FETCH_RANDOM_FACT,
-    FETCH_ALL_CATEGORY,
-    FETCH_FACT_BY_CATEGORY,
-    UPDATE_FAVOURITE_JOKES
-  } from '../../constants/Facts_constants';
+  DELETE_EMPLOYEE,
+  UPDATE_EMPLOYEE,
+  ADD_EMPLOYEE
+  } from '../../constants/employeeDatabase_constants';
 import * as actions from '../../actions/employeeList';
 
-it('creates an action to get a random fact', () => {
-    const joke = { "id": "25vBR41iRNiXVzm_-IGxag", "value": "this is a test joke" };
+it('creates an action to delete an Employee', () => {
+  const employeeObject = { key: 5, firstName: "Andy", lastName: "Mann", email: "andy@affinityid.co.nz", role: "Employee", team: "Creative", image: "andy.png", address: "311 Brant road", city: "Auckland", dateAdded: "10-07-2019 10:59:14" };
 
-    const expectedAction = { type: FETCH_RANDOM_FACT, payload: joke };
+  const expectedAction = { type: DELETE_EMPLOYEE, payload: employeeObject };
 
-    expect(actions.getRandomfact(joke)).toEqual(expectedAction);
+  expect(actions.deleteEmployee(employeeObject)).toEqual(expectedAction);
 });
 
-it('fetch all categories', () => {
-    const category = ["explicit", "dev", "movie", "food", "celebrity", "science", "sport", "political", "religion", "animal", "history", "music", "travel", "career", "money", "fashion"];
+it('creates an action to update an Employee', () => {
+  const employeeObject = { key: 5, firstName: "Andy", lastName: "Mann", email: "andy@affinityid.co.nz", role: "Employee", team: "Creative", image: "andy.png", address: "311 Brant road", city: "Auckland", dateAdded: "10-07-2019 10:59:14" };
 
-    const expectedAction = { type: FETCH_ALL_CATEGORY, payload: category };
+  const expectedAction = { type: UPDATE_EMPLOYEE, payload: employeeObject };
 
-    expect(actions.fetchAllCategory(category)).toEqual(expectedAction);
-});
-
-
-it('fetch fact by category', () => {
-    const joke = { "id": "25vBR41iRNiXVzm_-IGxag", "value": "this is a fact fetched by category" };
-
-    const expectedAction = { type: FETCH_FACT_BY_CATEGORY, payload: joke };
-
-    expect(actions.getFactByCategory(joke)).toEqual(expectedAction);
+  expect(actions.updateEmployee(employeeObject)).toEqual(expectedAction);
 });
 
 
-it('get all saved favourtiejokes', () => {
-    const favouriteJokes = [{"id":"5rQO4oFQSeOJuvN-vK5t_w","value":"When Chuck Norris says 'pull my finger', consider that a polite warning that you very soon will be atomized."}];
+it('creates an action to add an Employee', () => {
+  const employeeObject = { key: 5, firstName: "Andy", lastName: "Mann", email: "andy@affinityid.co.nz", role: "Employee", team: "Creative", image: "andy.png", address: "311 Brant road", city: "Auckland", dateAdded: "10-07-2019 10:59:14" };
 
-    const expectedAction = { type: UPDATE_FAVOURITE_JOKES, payload: favouriteJokes };
+  const expectedAction = { type: ADD_EMPLOYEE, payload: employeeObject };
 
-    expect(actions.updateFavouriteJokes(favouriteJokes)).toEqual(expectedAction);
+  expect(actions.addEmployee(employeeObject)).toEqual(expectedAction);
 });
