@@ -122,7 +122,7 @@ class CardForm extends React.Component {
 
     return (
       <Card
-        className='card-form'
+        className='card__form'
       >
         <Form onSubmit={this.handleSubmit}>
           <Form.Group controlId='formImage'>
@@ -213,7 +213,7 @@ class CardForm extends React.Component {
             disabled={isButtonDisabled}
             variant='primary'
             type="submit"
-            className='btn btn-dark card-form-button'
+            className='btn btn-dark card__form-button'
           >
             {selectedEmployeeData ? 'UPDATE EMPLOYEE' : 'ADD EMPLOYEE'}
           </button>
@@ -223,16 +223,16 @@ class CardForm extends React.Component {
           selectedEmployeeData
           && (
             <div
-              className="card-form-icon-container"
+              className="card__form-icon-container"
               onClick={() => userCardSelected(selectedEmployeeData, 'openSelectedEmployeeCard')}
             >
-              <i className="fa fa-times card-form-close" />
+              <i className="fa fa-times card__form-close" />
             </div>
           )
         }
       </Card>
     );
   }
-};
+}
 
 export default CardForm;

@@ -3,7 +3,7 @@ import { shallow, configure } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16'
 
 import Joke from '../../components/joke';
-import * as m from '../../../src/utilities/SaveFacts';
+import * as m from '../../utilities/saveEmployeeList';
 
 configure({ adapter: new Adapter() })
 

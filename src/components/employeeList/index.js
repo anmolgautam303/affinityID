@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import FormControl from 'react-bootstrap/FormControl';
 import moment from "moment";
+import queryString from 'query-string';
 import UserCardList from '../../common/userCardList';
 import SelectedEmployeeCard from '../selectedEmployeeCard';
 import CardForm from '../cardForm';
@@ -17,6 +18,18 @@ class Employees extends React.Component {
     searchKeyword: '',
     sortBy: 'newest'
   };
+
+  componentDidMount() {
+    const { employeeList } = this.props;
+    const value = queryString.parse(this.props.location.search);
+    const id = value.id;
+    console.log('value', id);
+
+    if (id && employeeList[id - 1]) {
+      console.log("1");
+      this.userCardSelected(employeeList[id - 1], 'openSelectedEmployeeCard')
+    }
+  }
 
   userCardSelected = (selectedEmployeeData = null, actionName = 'addEmployee') => {
     this.setState({
@@ -89,16 +102,16 @@ class Employees extends React.Component {
     const { searchKeyword, sortBy } = this.state;
 
     return (
-      <div className="employees-container">
-        <Container className="custom-container">
+      <div className="employees__container">
+        <Container className="employees__container-custom-container">
           <Row className="show-grid">
             <Col xs={12} md={6}>
-              <img src={require("../../assets/img/affinityId-logo.svg")} alt="logo" className="company-logo" />
+              <img src={require("../../assets/img/affinityId-logo.svg")} alt="logo" className="employees__container-company-logo" />
             </Col>
             <Col xs={12} md={6}>
               <button
                 type="button"
-                className="btn btn-dark custom-buttons"
+                className="btn btn-dark employees__container-custom-buttons"
                 onClick={this.userCardSelected}
               >
                 Create a new employee
@@ -112,19 +125,19 @@ class Employees extends React.Component {
                 <FormControl
                   type="text"
                   placeholder="Search:"
-                  className="search-box"
+                  className="employees__container-search-box"
                   onChange={(e) => this.setState({ searchKeyword: e.target.value })}
                 />
               </Form>
 
-              <Row className="user-role-heading">
+              <Row className="employees__container-user-role-heading">
                 <Col xs={4}>
-                  <p className="admin-text">Admin</p>
+                  <p className="employees__container-admin-text">Admin</p>
                 </Col>
                 <Col xs={8}>
-                  <p className="sort-by">Sort by:
+                  <p className="employees__container-sort-by">Sort by:
                     <span
-                      className="sort-by-text"
+                      className="employees__container-sort-by-text"
                       onClick={() => this.setState({ sortBy: sortBy === 'newest' ? 'alphabetically' : 'newest' })}
                     >
                       {` ${sortBy === 'newest' ? 'newest' : 'alphabetically'}`}
@@ -138,9 +151,9 @@ class Employees extends React.Component {
                 userCardSelected={this.userCardSelected}
               />
 
-              <Row className="user-role-heading">
+              <Row className="employees__container-user-role-heading">
                 <Col xs={6}>
-                  <p className="admin-text">Employee</p>
+                  <p className="employees__container-admin-text">Employee</p>
                 </Col>
               </Row>
 
@@ -158,6 +171,6 @@ class Employees extends React.Component {
       </div>
     );
   }
-};
+}
 
 export default Employees;

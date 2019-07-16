@@ -12,6 +12,7 @@ class EmployeesContainer extends Component {
 render() {
   return (
     <EmployeeList
+      {...this.props}
       employeeList={this.props.employeeList}
       deleteEmployee={this.props.deleteEmployee}
       updateEmployee={this.props.updateEmployee}

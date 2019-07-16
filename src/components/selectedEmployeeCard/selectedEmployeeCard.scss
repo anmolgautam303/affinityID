@@ -1,106 +1,109 @@
 @import "../../variables.scss";
 
-.selected-user-card {
-  margin-top: 113px;
+.selected__user__card {
+  margin-top: 40px;
   padding: 0 20px 10px 20px;
   background-color: white;
-}
 
-.selected-user-card-image {
-  width: 104px;
-  height: 104px;
-  margin: -52px auto 20px auto;
-}
+  @media (min-width: 768px) {
+    margin-top: 113px;
+  }
 
-.selected-user-card-row {
-  padding: 0;
-}
+  .selected__user__card-image {
+    width: 104px;
+    height: 104px;
+    margin: -52px auto 20px auto;
+  }
 
-.selected-user-card-text {
-  margin: 0;
-}
+  .selected__user__card-row {
+    padding: 0;
+  }
 
-.selected-user-card-text-name {
-  color: $gray-one;
-  font-weight: bold;
-  font-size: 24px;
-}
+  .selected__user__card-text {
+    margin: 0;
+  }
 
-.selected-user-card-text-email {
-  color: $gray-two;
-  font-size: 12px;
-  line-height: 14px;
-}
+  .selected__user__card-text-name {
+    color: $gray-one;
+    font-weight: bold;
+    font-size: 24px;
+  }
 
-.selected-user-card-action-container {
-  height: 50px;
-}
+  .selected__user__card-text-email {
+    color: $gray-two;
+    font-size: 12px;
+    line-height: 14px;
+  }
 
-.selected-user-card-share-button {
-  background-color: $gray-two;
-}
+  .selected__user__card-action-container {
+    height: 50px;
 
-.selected-user-card-additional-text {
-  margin: 0;
-  color: $gray-three;
-}
+    .selected__user__card-edit-buttons {
+      width: 100%;
+      height: 36px;
+      background-color: rgba(208, 2, 27, 0.78);
+      opacity: 0.78;
+      color: white;
+      border-radius: 12px;
+      margin: 10px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+    }
 
-.selected-user-card-edit-buttons {
-  width: 100%;
-  height: 36px;
-  /*margin: 10px 0;*/
-  background-color: rgba(208, 2, 27, 0.78);
-  opacity: 0.78;
-  color: white;
-  border-radius: 12px;
-  margin: 10px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 14px;
-}
+    .selected__user__card-confirmation-text {
+      margin: 0;
+      flex: 2;
+    }
 
-.selected-user-card-confirmation-text {
-  margin: 0;
-  flex: 2;
-}
+    .selected__user__card-button-text {
+      margin: 0;
+      flex: 1;
+      cursor: pointer;
+    }
 
-.selected-user-card-button-text {
-  margin: 0;
-  flex: 1;
-  cursor: pointer;
-}
+    .selected__user__card-icon-container {
+      background-color: $white-one;
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 0;
+      font-size: 14px;
+      cursor: pointer;
+    }
 
-.icon-container {
-  background-color: $white-one;
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 0;
-  font-size: 14px;
-  cursor: pointer;
-}
+    .selected__user__card-custom-icon-margin {
+      margin-right: 20px;
+    }
 
-.custom-icon-margin {
-  margin-right: 20px;
-}
+    .selected__user__card-icon-times {
+      color: red;
+    }
+  }
 
-.selected-user-card-icon-times {
-  color: red;
-}
+  .selected__user__card-share-button {
+    background-color: $gray-two;
+  }
 
-.selected-user-card-divider {
-  border-top: 1px solid $white-one;
-  padding: 10px 0;
-}
+  .selected__user__card-divider {
+    border-top: 1px solid $white-one;
+    padding: 10px 0;
 
-.selected-user-card-additional-text-info {
-  font-size: 12px;
-}
+    .selected__user__card-additional-text {
+      margin: 0;
+      color: $gray-three;
+    }
 
-.selected-user-card-additional-text-desc {
-  font-size: 14px;
+    .selected__user__card-additional-text-info {
+      font-size: 12px;
+    }
+
+    .selected__user__card-additional-text-desc {
+      font-size: 14px;
+    }
+  }
 }

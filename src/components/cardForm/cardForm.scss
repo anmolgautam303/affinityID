@@ -1,36 +1,34 @@
 @import "../../variables.scss";
 
-.card-form {
+.card__form {
   padding: 30px;
   background-color: white;
   text-align: left;
-}
 
-@media (min-width: 768px) {
-  .card-form {
+  @media (min-width: 768px) {
     margin-top: 113px;
   }
-}
 
-.card-form-button {
-  background-color: $green-one;
-}
+  .card__form-button {
+    background-color: $green-one;
+  }
 
-.card-form-icon-container {
-  position: absolute;
-  top: -15px;
-  right: -15px;
-  background-color: $black-one;
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 14px;
-  cursor: pointer;
-}
+  .card__form-icon-container {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background-color: $black-one;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
 
-.card-form-close {
-  color: white;
+    .card__form-close {
+      color: white;
+    }
+  }
 }

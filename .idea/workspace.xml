@@ -2,28 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="629f08af-4d9e-45cc-85de-70cc91b0efe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__tests__/actions/FactsView.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__tests__/actions/FactsView.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__tests__/saga/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/userCardList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/userCardList/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/userCardList/userCardList.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/userCardList/userCardList.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cardForm/cardForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cardForm/cardForm.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__tests__/components/Joke.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__tests__/components/Joke.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cardForm/cardForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cardForm/cardForm.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/cardForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cardForm/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/employeeList/employeeList.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/employeeList/employeeList.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/employeeList/employeeList.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/employeeList/employeeList.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/employeeList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/employeeList/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/selectedEmployeeCard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/selectedEmployeeCard/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/selectedEmployeeCard/selectedEmployeeCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/selectedEmployeeCard/selectedEmployeeCard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/selectedEmployeeCard/selectedEmployeeCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/selectedEmployeeCard/selectedEmployeeCard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/employeeList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/employeeList/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducers/employeeDatabaseReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/employeeDatabaseReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saga/FactsSaga.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saga/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/Api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,11 +27,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/employeeList/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1530">
+              <caret line="102" selection-start-line="102" selection-end-line="102" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+            <state relative-caret-position="260">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/cardForm/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+              <folding>
+                <element signature="e#9#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.flowconfig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/cardForm/cardForm.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -49,36 +82,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ReactRouter</find>
-      <find>apisauce</find>
-      <find>saga</find>
-      <find>assert</find>
       <find>props</find>
-      <find>local-storage</find>
-      <find>lodash</find>
-      <find>redux-saga</find>
-      <find>redux-thunk</find>
-      <find>console</find>
-      <find>console.log</find>
-      <find>#469C46</find>
-      <find>#469C46</find>
-      <find>#161616</find>
-      <find>#4A4A4A</find>
-      <find>$gray-one</find>
-      <find>#9B9B9B</find>
-      <find>9B9B9B</find>
-      <find>4A4A4A</find>
-      <find>161616</find>
-      <find>469C46</find>
-      <find>$</find>
-      <find>827E99</find>
-      <find>#F2F7FA</find>
-      <find>#</find>
-      <find>D4D4D4</find>
-      <find>$green-one</find>
-      <find>$gray</find>
-      <find>$white-one</find>
-      <find>flow</find>
+      <find>employeeList</find>
+      <find>share</find>
+      <find>@media (min-width: 768px) {</find>
+      <find>margin-top: 113px;</find>
+      <find>padding: 30px;</find>
+      <find>update</find>
+      <find>constructor</find>
+      <find>location</find>
+      <find>divi</find>
+      <find>selected-user-card-additional-text</find>
+      <find>renderIcons</find>
+      <find>selected-user-card-action-container</find>
+      <find>pencil</find>
+      <find>icon-con</find>
+      <find>selected-user-card-icon-times</find>
+      <find>selected-user-card-button-text</find>
+      <find>selected-user-card</find>
+      <find>selected__user__card</find>
+      <find>search</find>
+      <find>.</find>
+      <find>employees-container-</find>
+      <find>className</find>
+      <find>employees-container</find>
+      <find>classname</find>
+      <find>card-form</find>
+      <find>notifi</find>
+      <find>react-notifications</find>
+      <find>alert</find>
+      <find>react-alert</find>
     </findStrings>
     <replaceStrings>
       <replace>role</replace>
@@ -87,6 +120,9 @@
       <replace />
       <replace>'</replace>
       <replace>image</replace>
+      <replace>selected__user__card</replace>
+      <replace>employees__container</replace>
+      <replace>card__form</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
@@ -112,25 +148,29 @@
         <option value="$PROJECT_DIR$/src/actions/FactsView.js" />
         <option value="$PROJECT_DIR$/src/constants/employeeDatabase_constants.js" />
         <option value="$PROJECT_DIR$/src/actions/employeeList.js" />
-        <option value="$PROJECT_DIR$/src/containers/employeeList/index.js" />
         <option value="$PROJECT_DIR$/src/common/userCardList/userCardList.css" />
         <option value="$PROJECT_DIR$/src/components/cardForm/cardForm.css" />
         <option value="$PROJECT_DIR$/src/components/employeeList/employeeList.css" />
-        <option value="$PROJECT_DIR$/src/router/router.js" />
         <option value="$PROJECT_DIR$/src/store/index.js" />
         <option value="$PROJECT_DIR$/src/__tests__/actions/FactsView.test.js" />
-        <option value="$PROJECT_DIR$/src/reducers/employeeDatabaseReducer.js" />
-        <option value="$PROJECT_DIR$/.flowconfig" />
-        <option value="$PROJECT_DIR$/src/components/cardForm/index.js" />
-        <option value="$PROJECT_DIR$/src/common/userCardList/index.js" />
-        <option value="$PROJECT_DIR$/src/components/employeeList/index.js" />
-        <option value="$PROJECT_DIR$/src/components/selectedEmployeeCard/index.js" />
-        <option value="$PROJECT_DIR$/src/components/employeeList/employeeList.scss" />
-        <option value="$PROJECT_DIR$/src/components/selectedEmployeeCard/selectedEmployeeCard.scss" />
         <option value="$PROJECT_DIR$/src/variables.scss" />
         <option value="$PROJECT_DIR$/src/index.css" />
-        <option value="$PROJECT_DIR$/src/components/cardForm/cardForm.scss" />
         <option value="$PROJECT_DIR$/src/index.scss" />
+        <option value="$PROJECT_DIR$/src/common/userCardList/index.js" />
+        <option value="$PROJECT_DIR$/src/containers/employeeList/index.js" />
+        <option value="$PROJECT_DIR$/src/utilities/saveEmployeeList.js" />
+        <option value="$PROJECT_DIR$/src/reducers/employeeDatabaseReducer.js" />
+        <option value="$PROJECT_DIR$/src/router/router.js" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/src/app.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/components/selectedEmployeeCard/selectedEmployeeCard.scss" />
+        <option value="$PROJECT_DIR$/src/components/selectedEmployeeCard/index.js" />
+        <option value="$PROJECT_DIR$/src/components/employeeList/employeeList.scss" />
+        <option value="$PROJECT_DIR$/src/components/employeeList/index.js" />
+        <option value="$PROJECT_DIR$/src/components/cardForm/cardForm.scss" />
+        <option value="$PROJECT_DIR$/src/components/cardForm/index.js" />
+        <option value="$PROJECT_DIR$/.flowconfig" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -138,7 +178,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="720" />
+    <option name="height" value="722" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -162,6 +202,45 @@
               <item name="react-app-employee-database" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-app-employee-database" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-app-employee-database" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-app-employee-database" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-app-employee-database" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-app-employee-database" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="cardForm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-app-employee-database" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-app-employee-database" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="employeeList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-app-employee-database" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-app-employee-database" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="selectedEmployeeCard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-app-employee-database" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-app-employee-database" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-app-employee-database" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-app-employee-database" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -224,21 +303,23 @@
       <workItem from="1563029033903" duration="21000" />
       <workItem from="1563029066608" duration="871000" />
       <workItem from="1563033199754" duration="25872000" />
+      <workItem from="1563235907504" duration="1098000" />
+      <workItem from="1563237066785" duration="531000" />
+      <workItem from="1563290883979" duration="6088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53786000" />
+    <option name="totallyTimeSpent" value="61571000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="720" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="722" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
@@ -251,6 +332,7 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -318,64 +400,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/employeeList/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/employeeDatabaseReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/Api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/saga/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/__tests__/saga/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/Api.js" />
+    <entry file="file://$PROJECT_DIR$/src/saga/index.js" />
+    <entry file="file://$PROJECT_DIR$/src/__tests__/saga/index.js" />
     <entry file="file://$PROJECT_DIR$/src/store/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -393,72 +420,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/userCardList/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/userCardList/userCardList.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.flowconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/selectedEmployeeCard/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/cardForm/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#9#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/employeeList/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/cardForm/cardForm.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/selectedEmployeeCard/selectedEmployeeCard.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/employeeList/employeeList.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -476,10 +441,131 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/userCardList/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utilities/saveEmployeeList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/employeeList/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/employeeDatabaseReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#8#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/selectedEmployeeCard/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="87" column="17" lean-forward="true" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/employeeList/employeeList.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/selectedEmployeeCard/selectedEmployeeCard.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/cardForm/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding>
+            <element signature="e#9#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.flowconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/cardForm/cardForm.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/employeeList/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        <state relative-caret-position="260">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
