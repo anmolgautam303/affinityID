@@ -1,4 +1,4 @@
-# react-app-employee-management (React+Redux+Saga+apisauce+flow)
+# react-app-employee-management (React+Redux+flow+Jest)
 
 ## install dependencies
 yarn install
