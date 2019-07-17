@@ -36,14 +36,11 @@ class Employees extends React.Component<Props, State> {
   };
 
   componentDidMount() {
-    console.log("this.props.locatio", typeof this.props.location);
     const { employeeList } = this.props;
     const value = queryString.parse(this.props.location.search);
     const id = value.id;
-    console.log('value', id);
 
     if (id && employeeList[id - 1]) {
-      console.log("1");
       this.userCardSelected(employeeList[id - 1], 'openSelectedEmployeeCard')
     }
   }
